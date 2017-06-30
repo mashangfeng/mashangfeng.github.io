@@ -5,6 +5,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>我的第一个页面</h1>
+   <div id="box">
+
+   </div>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+
+       $.ajax({
+          url:'https://mainsite-restapi.ele.me/bgs/poi/reverse_geo_coding?latitude=30.31573&longitude=120.166717',
+          type:'GET',
+          success:function(data) {
+              $('#box').html(data)
+          }
+       })
+
+    </script>
 </body>
 </html>
