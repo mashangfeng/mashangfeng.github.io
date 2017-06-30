@@ -16,7 +16,8 @@
           url:'https://mainsite-restapi.ele.me/bgs/poi/reverse_geo_coding?latitude=30.31573&longitude=120.166717',
           type:'GET',
           success:function(data) {
-              $('#box').html(data)
+              $('#box').html(data.name)
+              console.log(data.name)
           }
        })
 
