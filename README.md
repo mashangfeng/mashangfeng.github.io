@@ -1,4 +1,13 @@
-# vuexlianxi
+# 饿了吗PC端，进度50%
+
+* vue-cil
+* axios
+* vuex
+* vue-router
+* sass
+
+## 由于请求的是饿了吗线上数据，由于跨域的问题
+## 要看效果请nginx开启代理或者关闭你的浏览器跨域限制,祝你顺利。。。。
 
 > A Vue.js project
 
@@ -26,7 +35,4 @@ npm run e2e
 # run all tests
 npm test
 ```
-## 由于请求的是饿了吗线上数据，由于跨域的问题
-## 要看效果请nginx开启代理或者关闭你的浏览器跨域限制,祝你顺利。。。。
-
 
