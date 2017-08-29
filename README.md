@@ -8,6 +8,8 @@
 
 ## 由于请求的是饿了吗线上数据，由于跨域的问题
 ## 要看效果请nginx开启代理或者关闭你的浏览器跨域限制,祝你顺利。。。。
+### 关闭浏览器跨域的方法
+    "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" –disable-web-security –user-data-dir=C:\MyChromeDevUserData
 
 > A Vue.js project
 
