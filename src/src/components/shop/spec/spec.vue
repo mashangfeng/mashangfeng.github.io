@@ -4,29 +4,28 @@
       <!-- ngRepeat: spec in specsData -->
       <dl  >
         <dt >规格</dt>
-        <!-- ngRepeat: value in spec.values -->
+
         <dd  >微辣</dd>
-        <!-- end ngRepeat: value in spec.values -->
+
         <dd >中辣</dd>
-        <!-- end ngRepeat: value in spec.values -->
+
         <dd >魔鬼辣</dd>
-        <!-- end ngRepeat: value in spec.values -->
+
         <dd >不辣</dd>
-        <!-- end ngRepeat: value in spec.values -->
+
       </dl>
-      <!-- end ngRepeat: spec in specsData -->
+
     </div>
-    <!-- ngIf: !current.hideReason -->
+
     <div class="shop-specmenu-infogroup " ng-if="">
       <p>已选：<span >中辣</span>
-        <!-- ngIf: current.food.stock < 30 && current.food.stock > 0 -->
+
       </p>
       <p class="shop-specmenu-price"><span class="yen">¥</span><span >68.80</span>
-        <!-- ngIf: current.food.original_price -->
+
       </p>
     </div>
-    <!-- end ngIf: !current.hideReason -->
-    <!-- ngIf: current.hideReason -->
+
     <div class="shop-specmenu-infogroup buttons">
       <button class="btn-primary "  >选好了，加入购物车</button> <a class="shop-specmenu-cancel" href="javascript:" >不要了</a></div>
     <div class="shop-specmenu-arrow"></div>

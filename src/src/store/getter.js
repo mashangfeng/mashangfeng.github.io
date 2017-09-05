@@ -1,5 +1,5 @@
 export default {
-  getMaxOffset(state) {
-    return state.maxOffSet * 24;
-  }
+    getMaxOffset(state) {
+        return state.maxOffSet * 24;
+    }
 }

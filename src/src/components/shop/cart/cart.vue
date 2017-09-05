@@ -9,13 +9,13 @@
                     </div>
                 </div>
                 <div class="shop-cartbasket-tablerow">
-                     <div class="cell itemname">冰红茶</div>
-                     <div class="cell itemquantity">
-                         <button>-</button>
-                         <input type="text">
-                         <button>+</button>
-                     </div>
-                     <div class="cell itemtotal">¥50</div>
+                    <div class="cell itemname">冰红茶</div>
+                    <div class="cell itemquantity">
+                        <button>-</button>
+                        <input type="text">
+                        <button>+</button>
+                    </div>
+                    <div class="cell itemtotal">¥50</div>
                 </div>
             </div>
             <div class="shop-cartfooter">
@@ -29,6 +29,7 @@
     </div>
 </template>
 <script>
+
 
 </script>
 <style lang="scss">
@@ -46,7 +47,7 @@
         width: 100%;
         background-color: #fff;
         box-shadow: 0 1px 15px #ccc;
-        top:-88px;
+        top: -88px;
         .shop-grouphead {
             padding: 12px 10px;
             height: 45px;
@@ -97,8 +98,8 @@
                         border: 0;
                         height: 20px;
                         width: 30px;
-                        border-top:1px solid #ddd;
-                        border-bottom:1px solid #ddd;
+                        border-top: 1px solid #ddd;
+                        border-bottom: 1px solid #ddd;
                         line-height: 20px;
                         font-size: 12px;
                         vertical-align: top;
@@ -111,7 +112,6 @@
                     text-align: right;
                     color: #f17530;
                 }
-
             }
             .itemname {
                 width: 50%;
@@ -166,7 +166,7 @@
             color: #333;
             cursor: default;
         }
-
     }
 }
+
 </style>

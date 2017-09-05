@@ -7,8 +7,6 @@
 
 </script>
 <style lang="scss">
-.popover {
-    width:
-}
+
 
 </style>
